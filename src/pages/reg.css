@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+.container {
+    display: flex !important;
+    flex-direction:  column;
+    justify-content:  center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width:  100%;
+    margin: auto;
+    
+}
+
+h3{
+    padding: 15px;
+    color: orange;
+    width: 70%;
+
+    font-size: 50px;
+
+}
+.container > form {
+    width: 800px;
+    height: 450px;
+    border: 1px solid orange;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+  
+}
+
+pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+}
+
+p {
+    color: orange;
+}
+
+.field1 {
+    width: 250px;
+}
+.field2 {
+    width: 250px;
+    margin-left: 250px;
+    margin-top: -53px;
+}
+
+.field3 {
+    width: 250px;
+    margin-left: 500px;
+    margin-top: -53px;
+}
+
+.field4 {
+    width: 250px;
+    margin-left: 0px;
+    margin-top: 25px;
+
+}
+
+.field5 {
+    width: 250px;
+    margin-left: 250px;
+    margin-top: -53px;
+}
+
+.field6 {
+    width: 250px;
+    margin-left: 500px;
+    margin-top: -53px;
+}
+
+.field7 {
+    width: 560px;
+    margin-left: -30px;
+    margin-top: 25px;
+}
+
+.field8 {
+    width: 250px;
+    margin-left: 500px;
+    margin-top: -55px;
+}
+.btn1 {
+
+    width: 30%;
+    height: 3em;
+    background-color: rgb(247, 111, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 1em;
+    cursor: pointer;
+    color: white;
+    border-color: orange;
+    margin-left: 130px;
+    margin-top: 55px;
+}
+
+.btn1:hover { transform: scale(1.25);}
+
+.button2 {
+
+    width: 30%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 1em;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(111, 155, 222);
+    border-color: rgb(111, 155, 222);
+    margin-left: 380px;
+    margin-top: -47px;
+}
+
+.button2:hover { transform: scale(1.25);}
+
+.lli{
+    width:200px;
+   
+}
+.lii{
+    width:200px;
+}
+.liii{
+    width:200px;
+}
+.liiii{
+    width:200px;
+}
+.liiiii{
+    width:200px;
+}
+.liiiiii{
+    width:200px;
+}
+.liiiiii{
+    width:200px;
+}
+.liiiiiiii{
+    width:200px;
+}

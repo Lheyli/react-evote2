@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+
+.page{
+
+   
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ev {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: -1000px;
+     margin-top: 110px;
+}
+
+.cover{
+    left: 120em;
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(247, 111, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1000px;
+    margin-top: -800px;
+    
+    
+}
+
+input{
+    box-shadow: 0 0.188em 1.550em rgb(247, 111, 0);
+    border: orange;
+    background-color: white;
+    height: 4em;
+    width: 50%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 1em;
+    
+}
+
+input:focus {
+    outline-color: rgb(111, 155, 222);
+}
+
+
+.login-btn {
+
+    width: 40%;
+    height: 3em;
+    background-color: rgb(247, 111, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 1em;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+}
+
+.login-btn:hover { transform: scale(1.25);}
+
+.back-btn {
+
+    width: 40%;
+    height: 3em;
+    background-color: rgb(247, 111, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 1em;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+}
+
+.back-btn:hover { transform: scale(1.25);}
+
+
+.hide {position: absolute;
+transform: scale(0);}
+
+.login-popup {
+    position: absolute;
+    height: 25em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: orange;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transition: 1.5s;
+}
+.ad {
+    font-size: 35px;
+}

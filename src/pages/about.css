@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+.head {
+    color: orange;
+}
+.p1{
+font-size: 25px;
+}
+.p2{
+    font-size: 20px;
+    }
+.f1 {
+
+    background-color: white;;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(247, 111, 0);
+    display: flex !important;
+    flex-direction:  column;
+    justify-content:  center;
+    height: 35em;
+    max-width: 500px;
+    width:  100%;
+    margin: auto;
+    margin-left: 180px;
+    
+}
+.p3{
+    font-size: 30px;
+    margin-top: 5px;
+    }
+
+.i1 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.i2 {
+    margin-top: -170px;
+    margin-left: 330px;
+}
+
+.i3 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.i4 {
+    margin-top: -170px;
+    margin-left: 320px;
+}
+
+.p4{
+    margin-top: 30px;
+    margin-left: -300px;
+}
+
+.p5{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.p6{
+    margin-top: 30px;
+    margin-left: -300px;
+}
+.p7{
+    margin-top: 30px;
+    margin-left: 240px;
+ }
+ .mission{
+    font-size: 30px;
+    margin-top: -200px;
+    margin-left: -20px;
+    }
+.p9{
+
+    margin-left: -10px;
+    margin-top: 40px;
+}
+.strengths{
+    font-size: 30px;
+  
+    margin-top: -80px;
+}
+.p11{
+    
+   
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.f2 {
+
+    background-color: white;;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(247, 111, 0);
+    display: flex !important;
+    flex-direction:  column;
+    justify-content:  center;
+    height: 35em;
+    max-width: 500px;
+    width:  100%;
+    margin: auto;
+    margin-left: 1000px;
+    margin-top: -560px;
+    
+}
+.f3 {
+
+    background-color: white;;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(247, 111, 0);
+    display: flex !important;
+    flex-direction:  column;
+    justify-content:  center;
+    height: 35em;
+    max-width: 500px;
+    width:  100%;
+    margin: auto;
+    margin-left: 1850px;
+    margin-top: -560px;
+    
+}

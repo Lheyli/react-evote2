@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+.voting {
+    color: orange;
+    margin-top: -400px;
+}
+
+.fl {
+
+    background-color: white;;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(247, 111, 0);
+    display: flex;
+    flex-direction:  column;
+    justify-content:  center;
+    height: 500px;
+    width:  1000px;
+    margin: auto;
+    margin-left: 300px;
+    max-width: 1000px;
+    margin-top: 90px;
+    
+}
+
+.candidates{
+    font-size: 40px;
+    color: orange;
+    margin-top: -100px;
+}
+
+.ffff {
+
+  
+    position: relative;
+    border-radius: 1em;
+    
+    display: flex !important;
+    flex-direction:  column;
+    justify-content:  center;
+
+    margin: auto;
+    margin-left: 1300px;
+    margin-top: -900px;
+    
+    
+}
